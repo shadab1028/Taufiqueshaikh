@@ -1,0 +1,73 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead th, tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+.candidate-image, .symbol {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.bulb {
+    font-size: 20px;
+    color: #333;
+}
+
+.vote-button {
+    padding: 10px 20px;
+    background-color: #4b4bcc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.vote-button:hover {
+    background-color: #3a3a9a;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #ffebcc;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
